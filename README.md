@@ -2,6 +2,10 @@ oh hey.
 
 So, you want to play with Mozilla's Popcorn (http://mozillapopcorn.org/), but you aren't a javascript wizard. But! you're sota comfortable with html and css, and you're willing to fiddle with some text files to make things do stuff.
 
+
+(If you're this is gibberish, check out the sample: http://bigethan.github.com/nutritional-yeast/#five-boxes-demo - use FireFox it is a Mozilla joint after all)
+
+
 Mozilla offers their 'Butter' tool to make thigs non technical, but it's far from finished, and dumbs things down a bit too much.
 
 Enter Nutritional Yeast.  It's perhaps a slightly acquired taste, and isn't immediately obvious, but it really does go great on popcorn.  It's all html and javascript, so it'll run anywhere, and doesn't have any dependencies.
