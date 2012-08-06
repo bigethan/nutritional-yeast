@@ -1,0 +1,140 @@
+/**
+ * set this to "none" if you don't
+ * need to see the labels ont he targets,
+ * set it to "block" if you do
+ * @type {[type]}
+ */
+@show_id_tabs: block;
+
+/**
+ * The top and left variables specify the location
+ * of the top left corner of the box.
+ *
+ * The top left corner of the BROWSER window is
+ *
+ * top:0;
+ * left:0;
+ *
+ * so incrementing those numbers moves the top left
+ * corner of the box down and/or to the right.
+ *
+ * Then add the height or width to define the other
+ * edges of the box.
+ *
+ */
+@box_one_top: 10px;
+@box_one_left: 10px;
+@box_one_width: 500px;
+@box_one_height: 400px;
+
+@box_two_top: 10px;
+@box_two_left: 520px;
+@box_two_width: 350px;
+@box_two_height: 400px;
+
+@box_three_top: 215px;
+@box_three_left: 520px;
+@box_three_width: 250px;
+@box_three_height: 195px;
+
+@box_four_top: 420px;
+@box_four_left: 10px;
+@box_four_width: 100px;
+@box_four_height: 200px;
+
+@box_five_top: 420px;
+@box_five_left: 120px;
+@box_five_width: 650px;
+@box_five_height: 200px;
+
+/**
+ * Specific CSS MEss with as you like.
+ */
+
+.box {
+    position: absolute;
+    background: #eee;
+    z-index: 1;
+}
+
+.tab {
+    position: absolute;
+    height: 20px;
+    width: 70px;
+    color: #fff;
+    background-color: #ddd;
+    font-size: 80%;
+    text-align: center;
+    z-index: 2;
+}
+
+
+
+/**
+ * shouldn't have to mess with anything past this.
+ */
+
+
+#box-one {
+    top: @box_one_top;
+    left: @box_one_left;
+    width: @box_one_width;
+    height: @box_one_height;
+}
+
+#box-one-tab {
+    top: @box_one_top;
+    left: @box_one_left;
+}
+
+#box-two {
+    top: @box_two_top;
+    left: @box_two_left;
+    width: @box_two_width;
+    height: @box_two_height;
+}
+
+#box-two-tab {
+    top: @box_two_top;
+    left: @box_two_left;
+}
+
+#box-three {
+    top: @box_three_top;
+    left: @box_three_left;
+    width: @box_three_width;
+    height: @box_three_height;
+}
+
+#box-three-tab {
+    top: @box_three_top;
+    left: @box_three_left;
+}
+
+#box-four {
+    top: @box_four_top;
+    left: @box_four_left;
+    width: @box_four_width;
+    height: @box_four_height;
+}
+
+#box-four-tab {
+    top: @box_four_top;
+    left: @box_four_left;
+}
+
+#box-five {
+    top: @box_five_top;
+    left: @box_five_left;
+    width: @box_five_width;
+    height: @box_five_height;
+}
+
+#box-five-tab {
+    top: @box_five_top;
+    left: @box_five_left;
+}
+
+.tab {
+    display: @show_id_tabs;
+    }
